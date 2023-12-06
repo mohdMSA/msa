@@ -447,11 +447,35 @@
 .u-container-layout.hover .u-section-1 .u-list-item-4 {
   transform: rotate(0deg) scale(1) translateX(0px) translateY(0px) !important;
 }.u-section-2 .u-sheet-1 {
-  min-height: 600px;
+  min-height: 391px;
+}
+
+.u-section-2 .u-video-1 {
+  width: 610px;
+  height: 391px;
+  margin: 0 auto;
 }
 
 .u-section-2 .embed-responsive-1 {
   position: absolute;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 600px;
+  }
+
+  .u-section-2 .u-video-1 {
+    width: 540px;
+    height: 346px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-video-1 {
+    width: 340px;
+    height: 218px;
+  }
 } .u-section-3 {
   background-image: none;
   min-height: 340px;
